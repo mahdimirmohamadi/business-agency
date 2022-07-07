@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import How from "../img/how.png";
 import MiniCard from "./MiniCard";
@@ -14,8 +14,14 @@ const Left = styled.div`
 `;
 
 const Image = styled.img`
+  display: ${(props) => props.open && "none"};
   height: 100vh;
   margin-left: 10px;
+`;
+
+const Video = styled.video`
+  display: ${(props) => !props.open && "none"};
+  height: 300px;
 `;
 const Right = styled.div`
   width: 50%;
@@ -61,10 +67,12 @@ const Icon = styled.img`
 `;
 
 const Service = () => {
+  const [open, setOpen] = useState(false);
   return (
     <Container>
       <Left>
-        <Image src={How} />
+        <Image open={open} src={How} />
+        {/* <Video open={open} src="" /> */}
       </Left>
       <Right>
         <Wrapper>
@@ -80,7 +88,7 @@ const Service = () => {
             <MiniCard />
             <MiniCard />
           </CardContainer>
-          <Button>
+          <Button onClick={() => setOpen(true)}>
             <Icon src={Play} /> How it works
           </Button>
         </Wrapper>
