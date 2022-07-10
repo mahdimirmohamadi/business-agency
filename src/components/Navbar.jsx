@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 50px;
+  /* position: fixed; */
+  /* z-index: +1; */
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -24,6 +26,10 @@ const Logo = styled.h1`
 const Menu = styled.ul`
   display: flex;
   list-style: none;
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 const MenuItem = styled.li`
@@ -31,6 +37,10 @@ const MenuItem = styled.li`
   color: gray;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
 `;
 
 const Button = styled.button`
