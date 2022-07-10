@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/business-agency/static/js/main.80ba42ac.chunk.js",
+    "main.js.map": "/business-agency/static/js/main.80ba42ac.chunk.js.map",
+    "runtime-main.js": "/business-agency/static/js/runtime-main.3f5d700e.js",
+    "runtime-main.js.map": "/business-agency/static/js/runtime-main.3f5d700e.js.map",
+    "static/js/2.454d82f2.chunk.js": "/business-agency/static/js/2.454d82f2.chunk.js",
+    "static/js/2.454d82f2.chunk.js.map": "/business-agency/static/js/2.454d82f2.chunk.js.map",
+    "index.html": "/business-agency/index.html",
+    "static/js/2.454d82f2.chunk.js.LICENSE.txt": "/business-agency/static/js/2.454d82f2.chunk.js.LICENSE.txt",
+    "static/media/app.01f1abdd.png": "/business-agency/static/media/app.01f1abdd.png",
+    "static/media/how.cce08840.png": "/business-agency/static/media/how.cce08840.png",
+    "static/media/woman.ae6bc5ca.png": "/business-agency/static/media/woman.ae6bc5ca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f5d700e.js",
+    "static/js/2.454d82f2.chunk.js",
+    "static/js/main.80ba42ac.chunk.js"
+  ]
+}
